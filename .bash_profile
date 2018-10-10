@@ -30,7 +30,7 @@ alias senv='source env/bin/activate'
 # git alias fun
 alias gcb='git checkout -b'
 alias gs='git status'
-alias gl='git log'
+alias gl="git log --graph --pretty='\''%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 alias gc='git checkout'
 alias gbd='git branch -d'
 alias gd='git diff'
