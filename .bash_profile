@@ -38,6 +38,17 @@ alias gco='git commit'
 alias ga='git add -A'
 alias gb='git branch'
 
+# docker-compose goodness
+alias dcb='docker-compose build'
+alias dcup='docker-compose up'
+alias dps='docker-compose ps'
+alias dstart='docker-compose start'
+alias dstop='docker-compose stop'
+alias drestart='docker-compose restart'
+alias dexec='docker exec -it'
+alias drun='docker-compose run'
+alias dclogs='docker-compose logs'
+
 # frontend restarts
 # build runs statis js files copies status into the nucleus public dir
 # bin clean cleans node modules and cahced stuff
